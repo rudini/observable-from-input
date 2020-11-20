@@ -22,7 +22,6 @@
     },
     "homepage": "https://github.com/rudini/observable-from-input#readme",
     "peerDependencies": {
-        "@ngrx/store": "^10.0.1",
         "rxjs": "^6.6.3"
     },
     "devDependencies": {
