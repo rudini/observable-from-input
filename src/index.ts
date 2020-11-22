@@ -11,6 +11,7 @@ export const fromInput = <T>(target: T) => <K extends keyof T>(name: K): Observa
     Object.defineProperty(target, name, {
         set(value: T[K]) {
             subject.next(value);
+            current = value;
         },
         get() {
             return current;
