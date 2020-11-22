@@ -18,7 +18,7 @@ Suppose you have the following component:
     ...
 })
 export class AppComponent {
-    @Import() showData: boolean;
+    @Input() showData: boolean;
     data$: Observable<Data>;
 
     constructor(private store: Store) {
@@ -55,7 +55,7 @@ import { fromInput } from 'observable-from-input';
     `
 })
 export class AppComponent {
-    @Import() showData: boolean;
+    @Input() showData: boolean;
     showData$: Observable<boolean>;
     data$: Observable<Data>;
 
