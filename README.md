@@ -8,6 +8,13 @@ Small library that provides a typesave extension to use angular component input 
 npm i observable-from-input
 ```
 
+Choose the version corresponding to your Angular version:
+
+ Angular       | @observable-from-input |
+ ------------- | ---------------------- |
+ 12/13         | 12.x+                  |
+ 2 to 11       | 0.0.8 or less          |
+
 ## Usage
 
 Suppose you have the following component:
