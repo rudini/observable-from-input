@@ -1,6 +1,6 @@
 {
     "name": "observable-from-input",
-    "version": "12.0.1",
+    "version": "12.0.2",
     "description": "Small library that provides a typesave extension to use angular component input fields as RxJS Observables",
     "main": "dist/index.js",
     "scripts": {
