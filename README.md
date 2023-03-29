@@ -1,12 +1,19 @@
 # observable-from-input
 
-Small library that provides a typesave extension to use angular component input fields as RxJS Observables
+Small library that provides a typesafe extension to use angular component input fields as RxJS Observables
 
 ## Installation
 
 ```npm
 npm i observable-from-input
 ```
+
+Choose the version corresponding to your Angular version:
+
+ Angular       | @observable-from-input |
+ ------------- | ---------------------- |
+ 12+           | 12.x+                  |
+ 2 to 11       | 0.0.8 or less          |
 
 ## Usage
 
